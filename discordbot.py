@@ -16,7 +16,7 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def ねこ(ctx):
+async def (ctx):
     await ctx.send('にゃーん')
     
 #coding:UTF-8
