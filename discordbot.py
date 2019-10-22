@@ -18,15 +18,6 @@ async def ping(ctx):
 async def (ctx):
     await ctx.send('にゃーん')
 
-#coding:UTF-8
-import discord
-from datetime import datetime
-from discord.ext import tasks
-
-# 接続に必要なオブジェクトを生成
-client = discord.Client()
-
-
 #投稿する日時
 dateTimeList = [
 '2019/10/22 17:00',
