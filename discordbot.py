@@ -17,11 +17,6 @@ dateTimeList = [
 '2019/10/22 21:06'
 ]
 
-# 起動時に動作する処理
-@client.event
-async def on_ready():
-    print('ready')
-
 @bot.event
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
