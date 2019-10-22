@@ -18,4 +18,6 @@ async def ping(ctx):
 async def (ctx):
     await ctx.send('にゃーん')
 
+client.run(TOKEN)
+    
 bot.run(token)
