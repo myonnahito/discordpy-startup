@@ -9,7 +9,6 @@ token = os.environ['DISCORD_BOT_TOKEN']
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
 
-
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
