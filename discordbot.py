@@ -27,8 +27,4 @@ async def w(ctx):
 async def ww(ctx):
     await ctx.send('ダブルの衝撃ｗ')
 
-@bot.command()
-async def @リミット(ctx):
-    await ctx.send('呼んだ？')
-
 bot.run(token)
