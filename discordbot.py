@@ -48,7 +48,8 @@ async def on_message(message):
     if message.content == '!help':
         await message.channel.send('現在使用できるコマンドはありません')
 
-#ループ処理
+# Botの起動とDiscordサーバーへの接続
+client.run(TOKEN)
 
 @bot.event
 async def on_command_error(ctx, error):
