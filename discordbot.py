@@ -10,6 +10,15 @@ token = os.environ['DISCORD_BOT_TOKEN']
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
 
+@.event
+client.on('message', message =>
+{
+  if(message.isMemberMentioned(client.user))
+  {
+    message.reply( '呼びましたか？' );
+    return;
+  }
+});
 
 @bot.command()
 async def ping(ctx):
