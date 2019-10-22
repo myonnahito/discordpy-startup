@@ -22,11 +22,6 @@ dateTimeList = [
 async def on_ready():
     print('ready')
 
-# 指定時間に走る処理
-async def SendMessage():
-    channel = client.get_channel(CHANNEL_ID)
-    await channel.send('時間だよ')
-
 @bot.event
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
