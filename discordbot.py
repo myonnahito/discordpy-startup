@@ -13,9 +13,5 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
-@bot.event
-channel = client.get_channel(633125958848610305)
-await channel.send('hello')
-
 bot.run(token)
 
