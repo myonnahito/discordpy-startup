@@ -4,7 +4,6 @@ import traceback
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
-CHANNEL_ID = 一般 #チャンネルID
 
 #投稿する日時
 dateTimeList = [
@@ -13,11 +12,6 @@ dateTimeList = [
 '2019/10/22 20:04',
 '2019/10/22 20:05',
 ]
-
-# 指定時間に走る処理
-async def SendMessage():
-    channel = client.get_channel(CHANNEL_ID)
-    await channel.send('時間だよ')
 
 @bot.event
 async def on_command_error(ctx, error):
