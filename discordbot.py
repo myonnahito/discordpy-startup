@@ -26,7 +26,9 @@ async def w(ctx):
 @bot.command()
 async def ww(ctx):
     await ctx.send('ダブルの衝撃ｗ')
-    
+
+@client.event
+async def on_message(message):
 # 話しかけた人に返信する
     if client.user in message.mentions: # 話しかけられたかの判定
         reply = f'{message.author.mention} 呼んだ？' # 返信メッセージの作成
