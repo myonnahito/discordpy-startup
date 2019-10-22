@@ -9,15 +9,11 @@ token = os.environ['DISCORD_BOT_TOKEN']
 @bot.event
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
-    
+
+
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
 
-@bot.command()
-async def neco(ctx):
-    await ctx.send('にゃーん')
 
-client.run(TOKEN)
-    
 bot.run(token)
