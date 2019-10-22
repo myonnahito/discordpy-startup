@@ -5,13 +5,14 @@ import traceback
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 CHANNEL_ID = 一般 #チャンネルID
+CHANNEL_ID = channel1 #チャンネルID
 
 #投稿する日時
 dateTimeList = [
-'2019/10/22 19:50',
-'2019/10/22 19:53',
-'2019/10/22 19:54',
-'2019/10/22 19:55',
+'2019/10/22 19:57',
+'2019/10/22 19:58',
+'2019/10/22 19:59',
+'2019/10/22 20:00',
 ]
 
 # 指定時間に走る処理
