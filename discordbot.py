@@ -10,7 +10,7 @@ token = os.environ['DISCORD_BOT_TOKEN']
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
 
-@.event
+@event
 client.on('message', message =>
 {
   if(message.isMemberMentioned(client.user))
