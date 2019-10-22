@@ -80,5 +80,5 @@ client.run(TOKEN)
 
     
     
-    
+client.run(TOKEN)
 bot.run(token)
