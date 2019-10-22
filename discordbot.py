@@ -5,9 +5,6 @@ from datetime import datetime
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 CHANNEL_ID = 一般 #チャンネルID
-# 接続に必要なオブジェクトを生成
-client = discord.Client()
-
 
 #投稿する日時
 dateTimeList = [
