@@ -24,8 +24,6 @@ import discord
 from datetime import datetime
 from discord.ext import tasks
 
-TOKEN = "**********" #トークン
-CHANNEL_ID = ********** #チャンネルID
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
 
@@ -75,10 +73,5 @@ async def on_message(message):
 
 #ループ処理
 time_check.start()
-# Botの起動とDiscordサーバーへの接続
-client.run(TOKEN)
 
-    
-    
-client.run(TOKEN)
 bot.run(token)
