@@ -18,15 +18,5 @@ async def on_message(message):
 async def ping(ctx):
     await ctx.send('pong')
 
-# メッセージ受信時に動作する処理
-@bot.event
-async def on_message(message):
-    # メッセージ送信者がBotだった場合は無視する
-    if message.author.bot:
-        return
-    # 使用できるコマンド一覧
-    if message.content == '!help':
-        await message.channel.send('現在使用できるコマンドはありません')
-
 bot.run(token)
 
