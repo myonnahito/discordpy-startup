@@ -29,9 +29,8 @@ async def ww(ctx):
 
 @client.event
 async def on_message(message):
-# 話しかけた人に返信する
-    if client.user in message.mentions: # 話しかけられたかの判定
-        reply = f'{message.author.mention} 呼んだ？' # 返信メッセージの作成
-        await message.channel.send(reply) # 返信メッセージを送信
+    if client.user in message.mentions:
+        reply = f'{message.author.mention} 呼んだ？
+        await message.channel.send(reply)
 
 bot.run(token)
