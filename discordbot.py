@@ -5,14 +5,6 @@ import traceback
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
-#投稿する日時
-dateTimeList = [
-'2019/10/22 20:10',
-'2019/10/22 20:11',
-'2019/10/22 20:12',
-'2019/10/22 20:13',
-]
-
 @bot.event
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
