@@ -7,11 +7,21 @@ token = os.environ['DISCORD_BOT_TOKEN']
 
 #投稿する日時
 dateTimeList = [
-'2019/10/22 20:07',
-'2019/10/22 20:08',
-'2019/10/22 20:09',
 '2019/10/22 20:10',
+'2019/10/22 20:11',
+'2019/10/22 20:12',
+'2019/10/22 20:13',
 ]
+
+# 起動時に動作する処理
+@client.event
+async def on_ready():
+    print('ready')
+
+# 指定時間に走る処理
+async def SendMessage():
+    channel = client.get_channel(CHANNEL_ID)
+    await channel.send('時間だよ')
 
 @bot.event
 async def on_command_error(ctx, error):
