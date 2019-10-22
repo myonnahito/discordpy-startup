@@ -1,5 +1,4 @@
 #coding:UTF-8
-import discord
 from datetime import datetime
 from discord.ext import tasks
 
@@ -19,16 +18,7 @@ dateTimeList = [
 '2019/10/22 23:30',
 ]
 
-# 起動時に動作する処理
-@client.event
-async def on_ready():
-    print('ready')
-
 # 指定時間に走る処理
 async def SendMessage():
     channel = client.get_channel(CHANNEL_ID)
     await channel.send('時間だよ')
-
-#ループ処理
-time_check.start()
-
