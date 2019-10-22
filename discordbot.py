@@ -4,6 +4,7 @@ import traceback
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
+CHANNEL_ID = 一般 #チャンネルID
 
 #投稿する日時
 dateTimeList = [
