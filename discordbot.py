@@ -14,7 +14,7 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @
-channel = client.get_channel(一般)
+channel = client.get_channel(633125958848610305)
 await channel.send('hello')
 
 bot.run(token)
