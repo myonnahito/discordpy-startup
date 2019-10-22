@@ -27,10 +27,8 @@ async def w(ctx):
 async def ww(ctx):
     await ctx.send('ダブルの衝撃ｗ')
 
-@client.event
-async def on_message(message):
-    if client.user in message.mentions:
-        reply = f'{message.author.mention} 呼んだ？
-        await message.channel.send(reply)
+@bot.command()
+async def @リミット(ctx):
+    await ctx.send('呼んだ？')
 
 bot.run(token)
