@@ -18,11 +18,8 @@ dateTimeList = [
 '2019/10/23 20:30'
 ]
 
-@bot.event
-async def on_message(message):
-    # do some extra stuff here
-
-    await bot.process_commands(message)
+channel = client.get_channel(633125958848610308)
+await channel.send('hello')
 
 # 指定時間に走る処理
 async def SendMessage():
