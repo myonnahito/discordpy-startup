@@ -26,7 +26,7 @@ async def ping(ctx):
 
 @bot.command()
 async def タクティパンツ(ctx):
-    await ctx.send('ｱｰｯｱｯｱｯｱｯﾊｯﾊｯﾊｯﾎｯﾊｯﾎｯﾎｯﾎｯﾎｰｩﾎｰｩﾎｰｩﾎｰｩﾎｫｫｰ!!ﾌｫｰｯﾌﾌｫｰｯﾌﾌｫｰｯﾌﾌｫｰｫｫｫｫｫ!!ﾌｫｰｯﾊｯｱﾊﾌｯﾊｯﾊｯﾊｯﾊ!!ﾄﾞﾝﾄﾞﾝﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁｫﾌｧｯﾌｫｯﾊｯﾊｯ!!ﾊﾋﾋﾍﾊﾌﾊｧﾄﾞﾝﾄﾞﾝﾄﾞﾝﾄﾞﾝ!!')
+    await ctx.send('https://www.youtube.com/watch?v=DVOe5nPzgWw')
 
 @bot.command()
 async def 螺旋の念(ctx):
