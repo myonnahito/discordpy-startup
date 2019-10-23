@@ -32,6 +32,14 @@ async def SendMessage():
     channel = client.get_channel(CHANNEL_ID)
     await channel.send('時間だよ')
 
+@bot.command()
+async def echo(ctx, *, message: str):
+    await ctx.send(message)
+
+@bot.command()
+async def foo(ctx):
+    await ctx.send('Hello')
+
 @bot.event
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
