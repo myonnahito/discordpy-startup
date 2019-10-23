@@ -18,6 +18,15 @@ dateTimeList = [
 '2019/10/23 20:30'
 ]
 
+# 60秒に一回ループ
+@tasks.loop(seconds=60)
+async def loop():
+    # 現在の時刻
+    now = datetime.now().strftime('%H:%M')
+    if now == '21:15':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('おはよう')  
+
 # 指定時間に走る処理
 async def SendMessage():
     channel = client.get_channel(CHANNEL_ID)
