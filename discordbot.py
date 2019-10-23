@@ -23,44 +23,45 @@ async def on_message(message):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
-@bot.command()
 
+@bot.command()
 async def タクティパンツ(ctx):
     await ctx.send('ｱｰｯｱｯｱｯｱｯﾊｯﾊｯﾊｯﾎｯﾊｯﾎｯﾎｯﾎｯﾎｰｩﾎｰｩﾎｰｩﾎｰｩﾎｫｫｰ!!ﾌｫｰｯﾌﾌｫｰｯﾌﾌｫｰｯﾌﾌｫｰｫｫｫｫｫ!!ﾌｫｰｯﾊｯｱﾊﾌｯﾊｯﾊｯﾊｯﾊ!!ﾄﾞﾝﾄﾞﾝﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁｫﾌｧｯﾌｫｯﾊｯﾊｯ!!ﾊﾋﾋﾍﾊﾌﾊｧﾄﾞﾝﾄﾞﾝﾄﾞﾝﾄﾞﾝ!!')
-    @bot.command()
-    
+
+@bot.command()
 async def 螺旋の念(ctx):
     await ctx.send('ｵｰｯ↓ﾎｯﾎｯﾎｯﾌﾎｯﾎﾌﾎﾌﾎﾌ↑ﾎﾊﾎｯﾊｯﾎｯﾎｯﾊｯﾊ(ﾄﾞﾝﾄﾞﾝﾄﾞﾝﾄﾞﾝﾄﾞﾝ)ｳﾎｳﾌﾎｳﾎﾎ↓ﾎﾎｳﾎｳﾎﾎ(ﾄﾞﾝﾄﾞﾝﾄﾞﾝ)ｳｯﾎｯﾎｯﾎ(ﾊﾞﾀﾝﾊﾞﾀﾝ)ﾊｯﾊｯﾊｯﾊｯｱﾊｯｱﾊｯ(ﾊﾞﾀﾝ)ﾊｯﾊｱﾊｯｯﾊｯﾊｯｱﾊ出たwww出たっ出た出た(ﾄﾞﾝ)ｯﾊｯﾊｯﾊｯﾊｗｗｗｱｯﾊｧ出たwwwwﾓｳｯﾎｫｯﾊｯﾊｯﾊｯﾊｯﾊｯﾊwww出たwww(ﾄﾞﾝ)wwwwwwｱｯﾊｧww出たwwwwwｯﾊｧｯﾊwwwww出たwwwwww出たｯﾊｯﾊｱｯﾊｯﾊwwww出たぁww出ったぁwwwwwwﾎﾝﾄwwwﾃﾞﾀwwwwwwwwﾌｧｰｯﾊｱやったぁwwwwwwﾊｰｯﾊﾊｯﾊwww本当にもうwwwwwwwｯﾊｯﾊｯﾊﾊｯﾊww
 (ｶﾞﾀﾝ)ｱｲﾀﾞﾀﾞﾀﾞﾀﾞ今ｯ (ｶﾞﾝｯｶﾞﾝ)ｱｲｯﾀﾞ...ちょっｱｯｯ ｱﾊｱｧ痛ってぇ... ｱｧ...ﾊｧｧ')
-    @bot.command()
-                   
+
+@bot.command()
 async def さもさん(ctx):
     await ctx.send('よっちゃｗ')
-    @bot.command()
+
+@bot.command()
 async def 決闘(ctx):
     await ctx.send('ディメ禁止')
-    @bot.command()
 
+@bot.command()
 async def 卍解(ctx):
     await ctx.send('故に侘助')
-    @bot.command()
 
+@bot.command()
 async def 連絡(ctx):
     await ctx.send('@everyoneイシス出席表 明日までに記入してくださいね')
-    @bot.command()
 
+@bot.command()
 async def 締め切り(ctx):
     await ctx.send('@everyoneイシス出席 締め切りだからね')
-    @bot.command()
 
+@bot.command()
 async def アラド戦記(ctx):
     await ctx.send('13年だって')
-    @bot.command()
-                   
+
+@bot.command()
 async def 美濃加茂(ctx):
     await ctx.send('そうかもｗ')
-    @bot.command()
-                   
+
+@bot.command()
 async def 山田(ctx):
     await ctx.send('太郎ｗ')
 
