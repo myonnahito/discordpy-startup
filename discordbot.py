@@ -23,8 +23,6 @@ async def SendMessage():
     channel = client.get_channel(CHANNEL_ID)
     await channel.send('時間だよ')
 
-await client.change_presence(activity=discord.Game(name='my game'))
-
 @bot.event
 async def on_command_error(ctx, error):
     await ctx.send(str(error))
