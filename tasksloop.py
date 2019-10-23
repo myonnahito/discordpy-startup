@@ -2,7 +2,7 @@
 import discord
 from discord.ext import tasks
 
-CHANNEL_ID = 一般 #チャンネルID
+CHANNEL_ID = 633125958848610308 #チャンネルID
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
 
