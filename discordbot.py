@@ -5,7 +5,6 @@ import os
 import traceback
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
-CHANNEL_ID = 633125958848610308 #チャンネルID
 
 #投稿する日時
 dateTimeList = [
@@ -18,12 +17,13 @@ dateTimeList = [
 '2019/10/23 20:30'
 ]
 
+@bot.event
 channel = client.get_channel(633125958848610308)
 await channel.send('hello')
 
 # 指定時間に走る処理
 async def SendMessage():
-    channel = client.get_channel(CHANNEL_ID)
+    channel = client.get_channel(633125958848610308)
     await channel.send('時間だよ')
 
 await client.change_presence(activity=discord.Game(name='my game'))
