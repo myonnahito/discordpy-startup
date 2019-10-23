@@ -30,7 +30,7 @@ async def タクティパンツ(ctx):
 
 @bot.command()
 async def 螺旋の念(ctx):
-    await ctx.send('ｵｰｯ↓ﾎｯﾎｯﾎｯﾌﾎｯﾎﾌﾎﾌﾎﾌ↑ﾎﾊﾎｯﾊｯﾎｯﾎｯﾊｯﾊ(ﾄﾞﾝﾄﾞﾝﾄﾞﾝﾄﾞﾝﾄﾞﾝ)ｳﾎｳﾌﾎｳﾎﾎ↓ﾎﾎｳﾎｳﾎﾎ(ﾄﾞﾝﾄﾞﾝﾄﾞﾝ)ｳｯﾎｯﾎｯﾎ(ﾊﾞﾀﾝﾊﾞﾀﾝ)ﾊｯﾊｯﾊｯﾊｯｱﾊｯｱﾊｯ(ﾊﾞﾀﾝ)ﾊｯﾊｱﾊｯｯﾊｯﾊｯｱﾊ出たwww出たっ出た出た(ﾄﾞﾝ)ｯﾊｯﾊｯﾊｯﾊｗｗｗｱｯﾊｧ出たwwwwﾓｳｯﾎｫｯﾊｯﾊｯﾊｯﾊｯﾊｯﾊwww出たwww(ﾄﾞﾝ)wwwwwwｱｯﾊｧww出たwwwwwｯﾊｧｯﾊwwwww出たwwwwww出たｯﾊｯﾊｱｯﾊｯﾊwwww出たぁww出ったぁwwwwwwﾎﾝﾄwwwﾃﾞﾀwwwwwwwwﾌｧｰｯﾊｱやったぁwwwwwwﾊｰｯﾊﾊｯﾊwww本当にもうwwwwwwwｯﾊｯﾊｯﾊﾊｯﾊww(ｶﾞﾀﾝ)ｱｲﾀﾞﾀﾞﾀﾞﾀﾞ今ｯ (ｶﾞﾝｯｶﾞﾝ)ｱｲｯﾀﾞ...ちょっｱｯｯ ｱﾊｱｧ痛ってぇ... ｱｧ...ﾊｧｧ')
+    await ctx.send('https://www.youtube.com/watch?v=gwmNr729bYo')
 
 @bot.command()
 async def さもさん(ctx):
@@ -73,9 +73,12 @@ async def 詠唱2(ctx):
     await ctx.send('消えなさい！旋律の戒めよ！死霊使い（ネクロマンサー）の名の下に具現せよ！ミスティック・ケージ！！力というものを思い知りなさい！')
 
 @bot.command()
-async def foo(ctx):
-    await ctx.send('Hello')
+async def w(ctx):
+    await ctx.send('草生やすな')
 
+@bot.command()
+async def ww(ctx):
+    await ctx.send('ダブルの衝撃ｗ')
 
 bot.run(token)
 
