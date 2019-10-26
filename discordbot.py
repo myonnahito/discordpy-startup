@@ -7,6 +7,7 @@ bot = commands.Bot(command_prefix='___')
 token = os.environ['DISCORD_BOT_TOKEN']
 CHANNEL_ID = 633125958848610308 #チャンネルID
 
+
 @bot.command()
 async def echo(ctx, *, message: str):
     await ctx.send(message)
